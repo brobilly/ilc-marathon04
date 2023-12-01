@@ -1,0 +1,62 @@
+.form-container {
+  width: 95%;
+  height: 540px;
+  display: flex;
+  border: solid 4px black;
+  border-radius: 7px;
+}
+.form-box {
+  background-color: white;
+  width: 75%;
+  height: 100%;
+  padding: 25px 25px 20px;
+}
+.form-box > h1 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #0a86bc;
+}
+
+.form-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+  border-left: 1px solid #bbb;
+}
+.form-logo > img {
+  width: 100%;
+}
+
+.form-box > form {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+.form-group > label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group > input, select {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+form > button[type=submit] {
+  background-color: #0078fc;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+}
